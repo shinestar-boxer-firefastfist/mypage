@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--코드는 원래 이렇게 공부하는거에요. 내가 적용하는게 어떻게 바뀌는지 직접요-->
+
+<head>
+    <!--구글 검색 엔진이 내 사이트에 대한 정보를 가져가려고 하는데, 어떻게 최적화 할지 등에 대한 정보가 주로 <head>에 들어간다.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년, 나만의 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+        /*코딩에서 *나오면 왠만하면 전체 다 먹이겠다는 뜻*/
+        * {
+            font-family: 'Dongle', sans-serif;
+        }
+
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 20px;
+            padding: 4px 14px;
+            /*padding은 여백이며, 위아래와 양옆을 뜻한다.*/
+            border-radius: 8px;
+
+        }
+
+        .bg {
+            width: 369px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+    <!--꾸미려면 지칭이 필요합니다. 즉 명찰을 만들어주고, 그 명찰을 지칭하며 꾸며주거나 변경해야 합니다.-->
+    <!--명함을 만드는게 class, 명찰을 지칭하는게 .tltle{}-->
+    <h1 class="title-t2">2023 버킷리스트를 작성하세요.</h1>
+    <P class="msg-t3">현실적이지만 도전적인 과제를 적어주세요.</P>
+    <div class="row flex-row wrap">
+        <div class="bucket img1-t3 center">4kg 감량하기</div>
+        <div class="bucket img2-t2 center">복싱 생체대회 출전하기</div>
+        <div class="bucket img1-t3 center">번지 점프 하기</div>
+        <div class="bucket img2-t5 center">바다 수영 배우기</div>
+        <div class="bucket img1-t4 center">월 20만원 이상의 부수입 만들기</div>
+        <div class="bucket img2-t2 center">기타로 Casual 완곡하기</div>
+    </div>
+
+
+
+</body>
+
+</html>
